@@ -3,7 +3,6 @@ import { screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import renderWithRouter from '../renderWithRouter';
 import App from '../App';
-import { click } from '@testing-library/user-event/dist/click';
 
 describe('tests the FavoritePokemon component', () => {
   it('should display /No favorite pokemon found/ if no pokemon has been favorited/', () => {
